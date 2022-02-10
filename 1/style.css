@@ -1,0 +1,119 @@
+.um {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -16px;
+    height: 40px;
+    width: 20px;
+    background: #fff;
+    border-radius: 3px;
+    transform: rotate(50deg);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.um2 {
+    height: 100px;
+    width: 24px;
+    z-index: 4;
+    position: absolute;
+    top: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+    background-color:#fff;
+  }
+
+.zero {
+    position: absolute;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    z-index: 3;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    left: 17px;
+    border: 24px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}    
+
+
+.zero2 {
+    position: absolute;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    left: 17px;
+    border: 24px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    left: 100px;
+}
+
+@keyframes text {
+    0% {
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-17px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-8px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.sub {
+    position: relative;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(95, 95, 95);
+    margin-top: 120px;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+}
+
+.text {
+    position: relative;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(95, 95, 95);
+}
+
+.frame {
+	background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+    background:linear-gradient(to top right, yellow, rgb(255, 243, 243));  color: #fff;
+  	font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
